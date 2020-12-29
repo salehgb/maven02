@@ -3,6 +3,8 @@ package Adress;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.lang.System.*;
+
 public class Simple {
     public static void main(String[] args) {
         List<String>name=new ArrayList<>();
@@ -11,6 +13,6 @@ public class Simple {
         name.add("mia");
 
 
-        name.forEach(System.out::println);
+        name.forEach(out::println);
     }
 }
